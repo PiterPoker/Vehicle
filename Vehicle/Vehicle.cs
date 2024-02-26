@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Vehicle
 {
+    [Serializable]
     public abstract class Vehicle
     {
         public static int AmountChassis { get; set; }

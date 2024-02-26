@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Vehicle
 {
+    [Serializable]
     public class Bus : Vehicle
     {
         public static string EngineType { get; set; }

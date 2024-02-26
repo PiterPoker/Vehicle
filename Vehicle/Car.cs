@@ -1,5 +1,8 @@
-﻿namespace Vehicle
+﻿using System;
+
+namespace Vehicle
 {
+    [Serializable]
     public class Car : Vehicle
     {
         public static string EngineType { get; set; }
