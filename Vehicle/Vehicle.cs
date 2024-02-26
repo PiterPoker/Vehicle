@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Vehicle
 {
-    internal abstract class Vehicle
+    public abstract class Vehicle
     {
         public static int AmountChassis { get; set; }
         public static int MaxSpeed { get; set; }

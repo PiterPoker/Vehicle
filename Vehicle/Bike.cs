@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Vehicle
 {
-    internal class Bike : Vehicle
+    public class Bike : Vehicle
     {
         static Bike()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Vehicle
 {
-    internal class Motosycle : Vehicle
+    public class Motosycle : Vehicle
     {
         public static string EngineType { get; set; }
         public static string Fuel { get; set; }

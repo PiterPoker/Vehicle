@@ -1,6 +1,6 @@
 ﻿namespace Vehicle
 {
-    internal class Car : Vehicle
+    public class Car : Vehicle
     {
         public static string EngineType { get; set; }
         public static string Fuel { get; set; }
