@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Vehicle/1.0.0": {
+      "ProblemSolving/1.0.0": {
         "runtime": {
-          "Vehicle.dll": {}
+          "ProblemSolving.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Vehicle/1.0.0": {
+    "ProblemSolving/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
