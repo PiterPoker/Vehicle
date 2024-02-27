@@ -70,13 +70,18 @@ namespace ProblemSolving
         {
             foreach (var array in InitArrayShearchForMissingElements())
             {
+                var arrayString = string.Empty;
+                foreach (var item in array)
+                {
+                    arrayString += $" {item} ";
+                }
                 var result = WorkWithArray.MissingElements(array);
                 var resultString = string.Empty;
                 foreach (var item in result)
                 {
                     resultString += $" {item} ";
                 }
-                Console.WriteLine($"result = [{resultString}]");
+                Console.WriteLine($"main array[{arrayString}] missing elements array[{resultString}]");
             }
         }
         #endregion

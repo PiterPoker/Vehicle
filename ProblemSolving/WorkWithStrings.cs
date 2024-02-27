@@ -24,9 +24,11 @@ namespace ProblemSolving
         #endregion
 
         #region 4.2
-        internal static bool IsPalindrome(string s) 
+        internal static bool IsPalindrome(string s)
         {
-            var sArray = s.Replace(" ", string.Empty).ToUpper().ToCharArray();
+            var sArray = s.Replace(" ", string.Empty)
+                .ToUpper()
+                .ToCharArray();
             var sLength = sArray.Length - 1;
             for (int i = 0; i < sArray.Length / 2; i++)
             {
